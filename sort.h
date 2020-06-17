@@ -31,4 +31,9 @@ void insertion_sort_list(listint_t **list);
 /* Selection sort */
 void selection_sort(int *array, size_t size);
 void swp(int *num1, int *num2);
+
+/* Quick sort */
+void quick_sort(int *array, size_t size);
+int lomuto(int arr[], size_t size, int low, int high);
+void recursive_quick(int arr[], size_t size, int min, int max);
 #endif
